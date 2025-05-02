@@ -1,0 +1,9 @@
+Flask==3.0.2
+Flask-SQLAlchemy==3.1.1
+Flask-Limiter==3.5.0
+Flask-IPFilter==0.0.5
+python-dotenv==1.0.1
+requests==2.31.0
+PyMySQL==1.1.0
+pymongo==4.6.1
+ipaddress==1.0.23 

@@ -11,7 +11,7 @@ from app.models.ticket import Ticket
 newticket_bp = Blueprint("newticket", __name__)
 
 @newticket_bp.route("/api/newticket", methods=['POST'])
-@limiter.limit("100 per 10 minutes; 400 per hour")
+@limiter.limit("5 per 10 minutes; 20 per hour")
 def create_ticket():
     request_data = request.get_json()
     
